@@ -1,10 +1,9 @@
-import React ,{Component} from 'react';
+import React from 'react';
 
-export default class Course extends Component{
-    render (){
-        return  (
-            <li>Info de cada Curso</li>
+const  Course =(props) =>(
+
+            <li>{props.id} - {props.nombre}</li>
             
-        )
-    }
-}
+)
+
+export default Course

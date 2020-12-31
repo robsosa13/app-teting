@@ -1,19 +1,19 @@
 import React from 'react'
 import Course  from './Course';
-const  CoursesList =(...props)=> (
-            
+const  CoursesList =(props)=> (       
     <div>
-    <form action="">
-        <input type="text" placeholder="Nombre" name="Nombre" />
-        <input type="text" placeholder="Nombre" name="Nombre" />
-        <input type="hidden" name="id" value={Math.floor(Math.random() * 100)} />
-        <input type="submit" value="Guardar" />
 
-    </form>
-    <ul>
-        <Course/>
+    <ul> 
+        {
+            props.courses.map(course=>(
+                <Course
+                key= {course.id}
+                id= {course.id}
+                nombre= {course.nombre}
+                />
+            ))
+        }
     </ul>
-
 </div>
 )
-export default CoursesList 
+export default CoursesList  
