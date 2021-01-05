@@ -11,7 +11,6 @@ class App extends Component {
         this.state = {
            // courses: courses
                courses: []
-
         }
         this.handleOnAddCourse = this.handleOnAddCourse.bind(this)
         this.fetchData = this.fetchData.bind(this)
@@ -41,7 +40,7 @@ class App extends Component {
             $('#root').fadeOut(2000,()=>this.setState({courses:[]})).fadeIn()
            // this.setState({ courses:[] })
     }   
-         componentDidMount(){ 
+    componentDidMount(){ 
              this.fetchData({})
          }
     render() {

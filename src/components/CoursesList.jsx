@@ -14,6 +14,9 @@ const  CoursesList =(props)=> (
             ))
         }
     </ul>
+
+
+    
 </div>
 )
 export default CoursesList  
