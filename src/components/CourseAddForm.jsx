@@ -1,5 +1,5 @@
 import React from 'react'
-import uid from 'uid'
+
 
 const CourseAddForm = props =>(
     <form onSubmit={props.onAddCourse}>
@@ -8,4 +8,4 @@ const CourseAddForm = props =>(
         <input type="submit" value="Guardar" />
     </form>
 )
-export default CourseAddForm
+export default CourseAddForm    

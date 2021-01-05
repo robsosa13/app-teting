@@ -1,0 +1,36 @@
+{
+    "courses": [
+        {
+            "id": 1,
+            "nombre": "Robertosss"
+        },
+        {
+            "id": 2,
+            "nombre": "Robertosss"
+        },
+        {
+            "id": 2,
+            "nombre": "Robertosss"
+        },
+        {
+            "id": 8,
+            "nombre": "Robertosss"
+        },
+        {
+            "id": 4,
+            "nombre": "Robertosss"
+        },
+        {
+            "id": 6,
+            "nombre": "Robertosss"
+        },
+        {
+            "id": 7,
+            "nombre": "Robertosss"
+        },
+        {
+            "id": 5,
+            "nombre": "Robertosss"
+        }
+    ]
+}
