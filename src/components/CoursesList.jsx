@@ -2,7 +2,6 @@ import React from 'react'
 import Course  from './Course';
 const  CoursesList =(props)=> (       
     <div>
-
     <ul> 
         {
             props.courses.map(course=>(
@@ -14,9 +13,6 @@ const  CoursesList =(props)=> (
             ))
         }
     </ul>
-
-
-    
 </div>
 )
 export default CoursesList  

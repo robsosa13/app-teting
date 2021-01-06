@@ -2,12 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './components/';
+import StaticSite from './components/Router'
 import reportWebVitals from './reportWebVitals';
 
+// ReactDOM.render(
+//   <React.Fragment>
+//     <App />
+//   </React.Fragment>,
+//   document.getElementById('root')
+// );
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <React.Fragment>
+    <StaticSite  />
+  </React.Fragment>,
   document.getElementById('root')
 );
 
